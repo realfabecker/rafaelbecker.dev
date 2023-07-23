@@ -1,0 +1,8 @@
+# NodeJS
+node_modules
+
+# Local Netlify folder
+.netlify
+
+# Build folder
+public

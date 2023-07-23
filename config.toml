@@ -1,0 +1,30 @@
+baseurl = "https://rafaelbecker.dev"
+DefaultContentLanguage = "br"
+title = "rafaelbecker.dev"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+enableEmoji = true
+enableGitInfo = true
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+summaryLength = 20
+
+[Params]  
+  mainSections = ["post","posts"]    
+  dateFormat = "January 2, 2006"
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true  
+  delayDisqus = true
+  showRelatedPosts = true
+  commit = "https://github.com/rafaelbeecker/rafaelbecker.dev/tree/"
+
+[Author]
+  name = "Rafael Becker"  
+  email = "realfabecker@gmail.com"
+  github = "rafaelbeecker"
+  twitter = "rafaelbeecker"
+  linkedin = "rafaelbeecker"

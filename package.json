@@ -1,0 +1,17 @@
+{
+  "name": "rafaelbecker.dev",
+  "private": true,
+  "license": "ISC",
+  "dependencies": {
+    "@netlify/functions": "^1.3.0",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
+}
