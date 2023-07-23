@@ -1,4 +1,4 @@
-baseurl = "https://rafaelbecker.dev"
+baseurl = "/"
 DefaultContentLanguage = "br"
 title = "rafaelbecker.dev"
 theme = "beautifulhugo"
@@ -20,11 +20,10 @@ summaryLength = 20
   useHLJS = true  
   delayDisqus = true
   showRelatedPosts = true
-  commit = "https://github.com/rafaelbeecker/rafaelbecker.dev/tree/"
 
 [Author]
   name = "Rafael Becker"  
-  email = "realfabecker@gmail.com"
-  github = "rafaelbeecker"
+  email = "realfabecker@outlook.com"
+  github = "realfabecker"
   twitter = "rafaelbeecker"
   linkedin = "rafaelbeecker"
