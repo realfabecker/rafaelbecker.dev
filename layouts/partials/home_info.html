@@ -1,13 +1,14 @@
 {{ $posts := where .Site.RegularPages "Type" "posts" }}
-{{- with site.Params.homeInfoParams }}
+{{ $tags := len .Site.Taxonomies.tags }}
 
+{{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
     <header class="entry-header">
         <h1>{{ .Title | markdownify }}</h1>
     </header>
     <div class="entry-content">
-        Neste blog você vai encontrar um total de <strong>{{ len $posts }} posts</strong> sobre os mais diversos tópicos.
-        
+        Este blog contém um compilado de <a href="/archives"> <strong>{{ len $posts }} post(s)</strong></a>
+        abrangendo por volta de <a href="/tags"> <strong>{{ $tags }} tópico(s)</strong></a>
     </div>
     <footer class="entry-footer">
         {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}

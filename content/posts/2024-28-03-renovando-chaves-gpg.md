@@ -30,10 +30,9 @@ uid           [final] realfabecker <realfabecker@outlook.com>
 sub   rsa2048 2023-10-08 [SEA] [expira: 2023-11-08]
 ```
 
-O identificador da chave em questão está localizado abaixo da linha que inicia com `pub` com o valor constante com o
-valor `7B54A102ABDADDD89DAA01D9307B01241C6326FB`.
+O fingerprint da chave que buscamos está localizado abaixo da linha iniciada com `pub` apresentando o valor `7B54A102ABDADDD89DAA01D9307B01241C6326FB`.
 
-* Com o identificador da chave em mãos é possível realizar a extensão de sua data de expiração para, por exemplo, cinco
+* Com o fingerprint da chave em mãos é possível realizar a extensão de sua data de expiração para, por exemplo, cinco
   semanas a partir da data de hoje.
 
 ```bash
