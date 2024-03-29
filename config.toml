@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = ""
 DefaultContentLanguage = "pt-br"
 title = "rafaelbecker.dev"
 theme = "PaperMod"
@@ -32,6 +32,7 @@ summaryLength = 20
     showRelatedPosts = true
     showShareButtons = true
     ShareButtons = ["linkedin", "twitter"]
+    minifyOutput = false
 
 [Author]
     name = "Rafael Becker"

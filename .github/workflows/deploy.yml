@@ -20,7 +20,7 @@ jobs:
           hugo-version: '0.124.1'
 
       - name: Build hugo
-        run: hugo --minify
+        run: hugo
           
       - name: Upload S3
         run: aws s3 sync public s3://rafaelbecker.dev --delete
