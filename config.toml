@@ -1,7 +1,7 @@
 baseurl = "/"
-DefaultContentLanguage = "br"
+DefaultContentLanguage = "pt-br"
 title = "rafaelbecker.dev"
-theme = "beautifulhugo"
+theme = "PaperMod"
 metaDataFormat = "yaml"
 enableEmoji = true
 enableGitInfo = true
@@ -11,19 +11,31 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 summaryLength = 20
 
-[Params]  
-  mainSections = ["post","posts"]    
-  dateFormat = "January 2, 2006"
-  comments = true
-  readingTime = true
-  wordCount = true
-  useHLJS = true  
-  delayDisqus = true
-  showRelatedPosts = true
+[menus]
+[[menus.main]]
+    name = 'Search'
+    url = 'search/'
+    weight = 10
+[[menus.main]]
+    weight = 10
+    name = 'About'
+    url = 'page/about/'
+
+[Params]
+    mainSections = ["post","posts"]
+    dateFormat = "January 2, 2006"
+    comments = true
+    readingTime = true
+    wordCount = true
+    useHLJS = true
+    delayDisqus = true
+    showRelatedPosts = true
+    showShareButtons = true
+    ShareButtons = ["linkedin", "twitter"]
 
 [Author]
-  name = "Rafael Becker"  
-  email = "realfabecker@outlook.com"
-  github = "realfabecker"
-  twitter = "rafaelbeecker"
-  linkedin = "rafaelbeecker"
+    name = "Rafael Becker"
+    email = "realfabecker@outlook.com"
+    github = "realfabecker"
+    twitter = "rafaelbeecker"
+    linkedin = "rafaelbeecker"
