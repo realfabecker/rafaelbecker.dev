@@ -12,10 +12,10 @@ pygmentsCodefencesGuessSyntax = true
 summaryLength = 20
 
 [menus]
-[[menus.main]]
-    name = 'Search'
-    url = 'search/'
-    weight = 10
+#[[menus.main]]
+#    name = 'Search'
+#    url = 'search/'
+#    weight = 10
 [[menus.main]]
     weight = 10
     name = 'About'
