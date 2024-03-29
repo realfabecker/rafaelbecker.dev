@@ -1,0 +1,72 @@
+baseURL: ""
+title: "rafaelbecker.dev"
+paginate: 5
+theme: [PaperMod]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts"]
+
+minify:
+  disableXML: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Tags
+          url: tags/
+          weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+
+params:
+  env: production  
+  defaultTheme: auto    
+  ShowReadingTime: true
+  disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  
+  homeInfoParams:
+    Title: ":wave: Oi! Eu sou o Rafael"
+    Content: Bem vindo ao meu Blog!
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/realfabecker"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/rafaelbeecker"
+
+  editPost:
+    URL: "https://github.com/realfabecker/rafaelbecker.dev/blob/master/content"    
+    Text: "Sugerir alteração"
+    appendFilePath: true
