@@ -2,6 +2,7 @@
 author: [ "Rafael Becker" ]
 title: Renovando chaves gpg
 date: "2024-03-28"
+lastmod: "2024-03-28"
 tags: [ "gpg" ]
 ---
 

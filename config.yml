@@ -2,7 +2,8 @@ baseURL: ""
 title: "rafaelbecker.dev"
 paginate: 5
 theme: [PaperMod]
-
+languageCode: "pt-br"
+enableGitInfo: true
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
@@ -44,8 +45,9 @@ outputs:
 
 params:
   env: production  
-  defaultTheme: auto    
-  ShowReadingTime: true
+  defaultTheme: auto
+  hideAuthor: true
+  ShowReadingTime: false
   disableSpecial1stPost: true
   displayFullLangName: true
   ShowPostNavLinks: true
